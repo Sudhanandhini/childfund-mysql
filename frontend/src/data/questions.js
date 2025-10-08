@@ -1,21 +1,50 @@
 // questionId starts from 1..10
 export const QUESTIONS = {
   English: [
-    { id: 1, q: "What is the capital of India?", options: ["Mumbai", "New Delhi", "Kolkata", "Chennai"] },
-    { id: 2, q: "Which is the largest planet?", options: ["Earth", "Mars", "Jupiter", "Venus"] },
-    { id: 3, q: "What color do you get by mixing red and white?", options: ["Pink", "Purple", "Orange", "Brown"] },
-    { id: 4, q: "Which animal is known as 'King of the Jungle'?", options: ["Tiger", "Lion", "Elephant", "Leopard"] },
-    { id: 5, q: "How many days in a leap year?", options: ["365", "366", "364", "360"] },
-    { id: 6, q: "Which instrument has 6 strings?", options: ["Piano", "Guitar", "Violin", "Flute"] },
-    { id: 7, q: "What is H2O?", options: ["Oxygen", "Water", "Hydrogen", "Salt"] },
-    { id: 8, q: "Which organ pumps blood?", options: ["Lungs", "Kidney", "Heart", "Liver"] },
-    { id: 9, q: "Which continent is India in?", options: ["Africa", "Asia", "Europe", "America"] },
-    { id: 10, q: "Which gas do plants use?", options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"] }
+    { id: 1, q: "What is child abuse?", options: ["Physical abuse", "Emotional abuse", "Sexual abuse", "All the above"] },
+    { id: 2, q: "Do you think that most people who sexually abuse are strangers?", options: ["Yes", "No", "Don't know"] },
+    { id: 3, q: "Do you know that certain photos are illegal to share online (inappropriate images of minors)?", options: ["Yes", "No"] },
+    { id: 4, q: "Are you aware of any helplines to support children who face online abuse?", options: ["Yes (1930/112/1098)", "No"] },
+    { id: 5, q: "Do you know where to report any online abuse incident?", options: ["Yes (Police/Website on Cybercrime)", "No"] },
+    {
+      id: 6, q: "What is the main challenge to punish the offender who commits a crime online?", options: ["The offenders are mostly anonymous",
+        "Lack of proper evidence",
+        "Fear of Stigma",
+        "Lack of Reporting mechanism",
+        "Lack of awareness of laws and procedures",
+        "No separate Law/Policy to combat online crime",
+        "All the above"
+      ]
+    },
+    { id: 7, q: "All social media platforms are safe.", options: ["True", "False"] },
+    { id: 8, q: "There is peer pressure on children to use social media apps.", options: ["Agree", "Disagree"] },
+    { id: 9, q: "Making new friends with unknown people through social media is dangerous.", options: ["Agree", "Disagree"] },
+    { id: 10, q: "Parents/Adults should stop children from using the internet because of its risk.", options: ["Agree", "Disagree"] },
+    { id: 11, q: "More education is required on online safety and dealing with inappropriate messages.", options: ["Agree", "Disagree"] },
+    { id: 12, q: "What are the reasons for children to talk to a stranger online?", options: ["Loneliness", "Peer pressure", "Interest", "No reason", "All the above"] },
+    { id: 13, q: "What social media apps do you mostly use?", options: ["Instagram", "Facebook", "Snapchat", "Twitter", "Any other", "All the Above"] },
+    {
+      id: 14, q: "What do you usually do on social media?", options: ["Chat with friends",
+        "Chat with Strangers",
+        "Watch videos/reels",
+        "Share photos and updates",
+        "All the above"
+      ]
+    },
+    { id: 15, q: "How often do you share personal information (location/school/personal details) on social media?",  options: ["Never", "Rarely", "Sometimes"] },
+    { id: 16, q: "How often do you use social media in a day?",  options: ["Less than 1 hr", "1 to 3 hrs", "3 to 5 hrs", "More than 5 hrs"] },
+    { id: 17, q: "If you felt uncomfortable with a photo someone shared with you, do you think you should block them?",  options: ["Yes", "No", "Unsure"] },
+    { id: 18, q: "If you felt uncomfortable with a message or comment online, do you think you would tell someone (a trusted adult) about it?",  options: ["No", "Yes", "Maybe a friend"] },
+    { id: 19, q: "Do parents/guardians discuss online safety with children?",  options: ["Never", "Rarely", "Sometimes", "Often"] },
+    { id: 20, q: "Do you think you would feel comfortable reporting if you get any inappropriate messages or content online?", options: ["Yes", "No", "Maybe"] },
+    { id: 21, q: "Do you think you should never respond to sites that seek personal information?",  options: ["Yes", "No", "Not aware"] },
+    { id: 22, q: "Do you think you should never share any inappropriate content online?",  options: ["Yes", "No", "Not aware"] },
+    { id: 23, q: "Please share your views about the training.", options: ["Excellent", "Good", "Okay"] },
   ],
   Hindi: [
-    { id: 1, q: "भारत की राजधानी क्या है?", options: ["मुंबई", "नई दिल्ली", "कोलकाता", "चेन्नई"] },
-    { id: 2, q: "सबसे बड़ा ग्रह कौन सा है?", options: ["पृथ्वी", "मंगल", "बृहस्पति", "शुक्र"] },
-    { id: 3, q: "लाल और सफेद मिला कर कौन सा रंग बनता है?", options: ["गुलाबी", "बैंगनी", "नारंगी", "भूरा"] },
+    { id: 1, q:  "बाल शोषण क्या है?",  options: ["शारीरिक शोषण", "भावनात्मक शोषण", "यौन शोषण", "उपरोक्त सभी"] },
+    { id: 2, q: "क्या आपको लगता है कि यौन शोषण करने वाले ज्यादातर लोग अजनबी होते हैं?",  options: ["हाँ", "नहीं", "नहीं पता"] },
+    { id: 3, q: "क्या आप जानते हैं कि कुछ तस्वीरें ऑनलाइन साझा करना अवैध है (नाबालिगों की अनुचित तस्वीरें)?",  options: ["गुलाबी", "बैंगनी", "नारंगी", "भूरा"] },
     { id: 4, q: "किस जानवर को 'जंगल का राजा' कहा जाता है?", options: ["शेर", "बाघ", "हाथी", "चीता"] },
     { id: 5, q: "लीप वर्ष में कितने दिन होते हैं?", options: ["365", "366", "364", "360"] },
     { id: 6, q: "किस वाद्य में 6 तार होते हैं?", options: ["पियानो", "गिटार", "वायलिन", "फ्लूट"] },
